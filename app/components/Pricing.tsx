@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
   return (
     <div className='flex flex-wrap  p-4 space-x- space-y-4 justify-evenly'>
-      
+     {/* Card 1  */}
     <div className="flex  flex-col w-full  p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
         <h5 className="mb-4 text-xl font-medium text-gray-500 ">Standard Package</h5>
         <div className="flex items-baseline text-gray-900 ">
@@ -11,7 +11,7 @@ const Pricing = () => {
             <span className="text-5xl font-extrabold tracking-tight">250</span>
             <span className="ml-1 text-xl font-normal text-gray-500 ">00</span>
         </div>
-        <ul role="list" className="space-y-5 my-7">
+        <ul role="list" className="space-y-5 my-7  ">
             <li className="flex space-x-3 items-center">
                 <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -48,17 +48,25 @@ const Pricing = () => {
                 </svg>
                 <span className="text-base font-normal leading-tight text-gray-500 ">Basic SEO Setup: Optimize your website for search engines by implementing essential on-page SEO practices, including meta tags and keyword integration.</span>
             </li>
+            <li className="flex space-x-3">
+                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                </svg>
+                <span className="text-base font-normal leading-tight text-gray-500 ">Ongoing Support: Enjoy extended support for maintenance, updates, and troubleshooting, ensuring your website remains operational and up-to-date.</span>
+            </li>
             
  
         </ul>
+        <p className='mb-4 '>Further services may be requested at an additional rate</p>
         <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
     </div>
 
+    {/* Card 2 */}
     <div className="flex  flex-col w-full  p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
         <h5 className="mb-4 text-xl font-medium text-gray-500 ">Premium Package</h5>
         <div className="flex items-baseline text-gray-900 ">
             <span className="text-3xl font-semibold">$</span>
-            <span className="text-5xl font-extrabold tracking-tight">500</span>
+            <span className="text-5xl font-extrabold tracking-tight">475</span>
             <span className="ml-1 text-xl font-normal text-gray-500 ">00</span>
         </div>
         <ul role="list" className="space-y-5 my-7">
@@ -119,6 +127,7 @@ const Pricing = () => {
             
  
         </ul>
+        <p className='mb-4 '>Further services may be requested at an additional rate</p>
         <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
     </div>
 
