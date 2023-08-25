@@ -5,6 +5,8 @@ import tech1 from '../../public/tech1.jpg'
 import tech2 from '../../public/tech6.jpg'
 import tech3 from '../../public/tech3.jpg'
 import tech4 from '../../public/tech4.jpg'
+import fruit1 from '../../public/fruit1.jpg'
+import phone1 from '../../public/phone1.jpg'
 
 const PicGrid = () => {
   return (
@@ -15,14 +17,16 @@ const PicGrid = () => {
             <Image className="h-auto max-w-full rounded-lg" src={tech1} alt=""/>
         </div>
         <div>
-            <Image className="h-auto max-w-full rounded-lg" src={tech2} alt=""/>
+            <Image className="h-auto max-w-full rounded-lg" src={fruit1} alt=""/>
         </div>
         <div>
-            <Image className="h-auto max-w-full rounded-lg" src={tech3} alt=""/>
+            <Image className="h-auto max-w-full rounded-lg" src={phone1} alt=""/>
         </div>
         <div>
             <Image className="h-auto max-w-full rounded-lg" src={tech4} alt=""/>
         </div>
+  
+        
     </div>
 
     </div>
