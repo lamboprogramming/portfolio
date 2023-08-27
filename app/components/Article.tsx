@@ -2,20 +2,17 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/next.svg'
-import tech from '../../public/tech6.jpg'
+import tech from '../../public/tech8.jpg'
 
 const Blog = () => {
   return (
     <div>
 
       <section className="bg-white ">
-    <div className=" px-4 mx-auto max-w-screen-xl lg:px-6 py-4">
-      <div className="mx-auto max-w-screen-sm text-center  mb-8 ">
-          
-          <p className="font-light text-gray-700 sm:text-3xl text-2xl "> <span className="font-semibold ">(Com·mu·ni·ty) </span> - a fellowship with others, as a result of sharing common attitudes, interests, and goals. </p>
-      </div> 
+    <div className=" p-4 mx-auto max-w-screen-xl lg:px-6 ">
+
      {/* Image */}
-     <div className="pb-4">
+     <div className="pb-8">
      <Image src={tech} className="w-full rounded-xl" alt='#'/>
      </div>
      
