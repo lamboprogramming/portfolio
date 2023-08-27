@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200">
+    <nav className=" border-gray-200">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <Link href="/" className="flex items-center">
           <Image src={logo} className="mr-3 transition duration-200 cursor-pointer w-52 sm:hover:scale-125" alt="Cleaning Logo" />
@@ -47,7 +47,7 @@ const Nav = () => {
           } w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="flex flex-col p-4 mt-4 text-lg font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+          <ul className="flex flex-col p-4 mt-4 text-lg font-medium border border-gray-100 rounded-lg md:p-0  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <Link
                 href="/"

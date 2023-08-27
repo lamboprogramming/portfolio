@@ -48,7 +48,7 @@ const Projects = () => {
        
    
         <p className="text-neutral-500 leading-7  ">
-          If you have an upcoming event check out <span className="font-bold">LuChainz</span> for your music needs. One of the hottest DJ&apos;s out of New York City, not only is he affordable and reliable, but guaranteed to make any event one to remember. His musical selection caters to every crowd!
+          Event coming up? <span className="font-bold"> DJ LuChainz</span> is one of the hottest DJ&apos;s out of New York City. Not only affordable and willing to travel, his genre selection is vast and perfect for all occasions. He&apos;s known for his capability to make the crowd enjoy themselves no matter the age!
         </p>
       </div>
 
@@ -76,7 +76,7 @@ const Projects = () => {
         </a>
         </div>
         <p className="text-neutral-500 leading-7  ">
-          Reside in theSan Diego, California area and in need of a cleaning for your space? Contact <span className="font-bold">Champion Cleaning</span>. They provide top of the line services for just about any occasion and are known their professionalism, work ethic, integrity, and passion for hospitality.
+          Check out <span className="font-bold">Champion Cleaning Services</span> if you ever need service in near the San Deigo, California area. They provide top of the line services for just about any occasion and are known their professionalism, work ethic, and passion for hospitality.
         </p>
       </div>
 

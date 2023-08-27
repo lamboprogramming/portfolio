@@ -7,6 +7,7 @@ import Pricing from './components/Pricing'
 
 import Projects from './components/Projects'
 
+
 export default function Home() {
   return (
     <>
