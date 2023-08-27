@@ -22,46 +22,33 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Single page</span> responsive web application for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">1 Page</span> responsive landing page or website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Social media integration</span> with links to profiles. </span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Social Media Integration:</span> media buttons, sharing content, and embedding content. </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Content integration: </span> skillfully incorporate your  content, text, images, and videos.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appeal, CTA elements, visual story telling.
+               </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search engine optimization</span> setup with meta tags and keyword integration.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
            
            </li>
-           <li className="flex space-x-3 items-center">
-               <svg className="flex-shrink-0 w-4 h-4 text-gray-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-               </svg>
-               <span className="text-base font-normal line-through leading-tight text-gray-500 "><span className="font-bold">Backend Integration</span> </span>
-               <svg className="flex-shrink-0 w-4 h-4 text-gray-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-               </svg>
-               <span className="text-base font-normal line-through leading-tight text-gray-500 "><span className="font-bold">Database setup</span> </span>
-           
-           </li>
-  
-  
 
-
-   
+  
        </ul>
        <Link href="/contact">
        <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
@@ -83,42 +70,34 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>1-5 page</span> responsive web application for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>5 Page</span> responsive modern business website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Data Validation:</span> Ensuring data submitted by users is accurate and secure, preventing errors. </span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Social Media Integration:</span>  media buttons, sharing content, and embedding content. </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Database setup</span> ensuring smooth retrieval and storage of information.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appeal, CTA elements, visual story telling.
+               </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Backend Integration</span> using third party systems, APIs, CRM systems, and inventory management software.</span>
-           
-           </li>
-           <li className="flex space-x-3 items-center">
-               <svg className="flex-shrink-0 w-4 h-4 text-gray-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-               </svg>
-               <span className="text-base font-normal line-through leading-tight text-gray-500 "><span className="font-bold">E-commerce solutions</span> </span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
            
            </li>
 
-      
 
 
-     
 
    
        </ul>
@@ -141,7 +120,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>1-10 page</span> responsive full stack web application for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>10 Page</span> responsive full stack web application for desktop and mobile devices.</span>
            
            </li>
          
@@ -149,24 +128,27 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>E-commerce solutions:</span> shopping carts, secure checkout, and inventory management.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>E-commerce solutions:</span> customers can explore, select, and purchase products.</span>
            
            </li>
+           <li className="flex space-x-3 items-center">
+               <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+               </svg>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Database Setup:</span> storage, retrieval and management of data and information.
+               </span>
+           
+           </li>
+
 
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>User authentication:</span> registration and login functionality for users to create and access accounts and features.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Payment Methods:</span> payment methods for customers to securely complete purchases.</span>
            
            </li>
-           <li className="flex space-x-3 items-center">
-               <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-               </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Security enhancements:</span> SSL certificates, firewall setups, and regular security audits</span>
-           
-           </li>
+    
  
 
    
