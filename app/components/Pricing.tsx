@@ -1,9 +1,11 @@
+import Link from 'next/link';
 import React from 'react';
 import { FcCancel } from 'react-icons/fc'
 
 const Pricing = () => {
   return (
     <>
+    
     <div className='m-4 grid lg:grid-cols-3 gap-4  '>
    
    {/* Basic */}
@@ -50,7 +52,10 @@ const Pricing = () => {
 
    
        </ul>
+       <Link href="/contact">
        <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+       </Link>
+       
    </div>
 
    {/* Standard */}
@@ -99,7 +104,9 @@ const Pricing = () => {
 
    
        </ul>
+       <Link href="/contact">
        <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+       </Link>
    </div>
 
    {/* Premium */}
@@ -146,7 +153,9 @@ const Pricing = () => {
 
    
        </ul>
+       <Link href="/contact">
        <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+       </Link>
    </div>
 
 

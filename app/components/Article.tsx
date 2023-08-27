@@ -7,6 +7,7 @@ import tech from '../../public/tech6.jpg'
 const Blog = () => {
   return (
     <div>
+
       <section className="bg-white ">
     <div className=" px-4 mx-auto max-w-screen-xl lg:px-6 py-4">
       <div className="mx-auto max-w-screen-sm text-center  mb-8 ">

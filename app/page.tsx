@@ -14,8 +14,10 @@ export default function Home() {
     <Navbar />
     <Jumbotron />
     <Projects />
+    <PicGrid /> 
+    <h1 className="flex mb-8 justify-center text-3xl sm:text-4xl font-extrabold ">Services that we offer</h1>
     <Pricing />
-    {/* <PicGrid /> */}
+    
     <Footer />
     </>
   )
