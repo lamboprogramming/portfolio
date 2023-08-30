@@ -15,10 +15,12 @@ export default function Home() {
     <>
     <Navbar />
     <Jumbotron />
-    <Projects />
-    <PicGrid /> 
+    
+    
     <PriceCard />
     <Pricing />
+    <PicGrid /> 
+    <Projects />
     <Footer />
     </>
   )
