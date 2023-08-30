@@ -23,7 +23,7 @@ const Projects = () => {
       <div className="mb-12 lg:mb-0">
         <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg bg-[50%]" data-te-ripple-init data-te-ripple-color="light">
           
-          <Image src={Dj} alt="#" className="w-full" />
+          <Image src={Dj} priority alt="#" className="w-full" />
          
          
         </div>

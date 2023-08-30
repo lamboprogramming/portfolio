@@ -5,6 +5,7 @@ import PicGrid from './components/PicGrid'
 import Jumbotron from './components/Jumbotron'
 import Pricing from './components/Pricing'
 
+
 import Projects from './components/Projects'
 
 
@@ -16,6 +17,7 @@ export default function Home() {
     <Projects />
     <PicGrid /> 
     <h1 className="flex mb-8 justify-center text-3xl sm:text-4xl font-extrabold ">Services that we offer</h1>
+
     <Pricing />
     
     <Footer />

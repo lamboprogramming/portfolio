@@ -2,16 +2,22 @@ import Link from 'next/link';
 import React from 'react';
 import { FcCancel } from 'react-icons/fc'
 
+
 const Pricing = () => {
   return (
     <>
     
-    <div className='m-4 grid lg:grid-cols-3 gap-4  '>
+    <div className='m-4 grid xl:grid-cols-3 gap-4  '>
    
    {/* Basic */}
    <div className="w-full max-w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
-       <h5 className="mb-8 text-xl font-medium text-gray-500 ">Basic </h5>
+       <h5 className="mb-8 text-xl font-medium text-gray-500 ">Basic</h5>
        <h5 className="mb-2 text-sm font-medium text-gray-900 ">Starting at </h5>
+                 {/* Animation */}
+    
+       {/* Services */}
+ 
+       
        <div className="flex items-baseline text-gray-900 ">
            <span className="text-3xl font-semibold">$</span>
            <span className="text-5xl font-extrabold tracking-tight">250</span>
@@ -22,7 +28,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">3 Page</span> responsive landing page or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">1-3 Page</span> responsive web application or website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
@@ -56,12 +62,16 @@ const Pricing = () => {
            
            </li>
 
-  
+ 
+         
+       
+
+   
+
        </ul>
        <Link href="/contact">
-       <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
-       </Link>
-       
+       <button type="button" className="text-blue-600 bg-white hover:bg-blue-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-200 border-gray-400 border  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Basic</button>
+       </Link>   
    </div>
 
    {/* Standard */}
@@ -78,7 +88,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>5 Page</span> responsive modern business website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>5 Page</span> responsive modern business web application or website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
@@ -109,16 +119,36 @@ const Pricing = () => {
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
                <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
-           
            </li>
+                      {/* Animation */}
+                      {/* <li className="flex space-x-4 items-center">
+                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Modern business website</span> </span>
 
+               <li className="flex space-x-3 items-center">
+                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Portfolio website</span> </span>
+           </li>
+           <li className="flex space-x-3 items-center">
+                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Event photography website</span> </span>
+               </li>
+               <li className="flex space-x-3 items-center">
+                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Recipe sharing platform</span> </span>
+
+           </li> 
+           </li>*/}
+      
+
+       
 
 
 
    
        </ul>
        <Link href="/contact">
-       <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+       <button type="button" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Standard</button>
        </Link>
    </div>
 
@@ -136,7 +166,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>10 Page</span> responsive full stack web application for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>10 Page</span> responsive full stack web application or website for desktop and mobile devices.</span>
            
            </li>
          
@@ -170,15 +200,19 @@ const Pricing = () => {
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
                <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Payment Methods:</span> payment methods for customers to securely complete purchases.</span>
-           
            </li>
+
+      
+    
+
+           
     
  
 
    
        </ul>
        <Link href="/contact">
-       <button type="button" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
+       <button type="button" className="text-blue-600 bg-white hover:bg-blue-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-200 border-gray-400 border  font-semibold rounded-lg  px-5 py-2.5 inline-flex justify-center w-full text-center text-sm">Choose Premium</button>
        </Link>
    </div>
 
