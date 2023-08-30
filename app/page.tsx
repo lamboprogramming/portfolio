@@ -7,6 +7,7 @@ import Pricing from './components/Pricing'
 
 
 import Projects from './components/Projects'
+import PriceCard from './components/PriceCard'
 
 
 export default function Home() {
@@ -16,10 +17,8 @@ export default function Home() {
     <Jumbotron />
     <Projects />
     <PicGrid /> 
-    <h1 className="flex mb-8 justify-center text-3xl sm:text-4xl font-extrabold ">Services that we offer</h1>
-
+    <PriceCard />
     <Pricing />
-    
     <Footer />
     </>
   )

@@ -54,13 +54,12 @@ const page = () => {
 
     
     <div className="mb-6">
-        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Priority/Urgency level</label>
+        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Pricing Package</label>
         <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select option</option>
-            <option value="standard">Low: General inquiries, non-urgent matters.</option>
-            <option value="deep">Normal: Standard inquiries, or requests to be addressed in a reasonable time frame.</option>
-            <option value="move_in_out">High: Urgent matters that require attention within the next business day.</option>
-            <option value="office">Critical: Extremely urgent matters that demand immediate attention.</option>
+            <option value="standard">Basic (3 page fully responsive website in 7 days)</option>
+            <option value="deep">Standard (5 page fully responsive website in 14 days)</option>
+            <option value="move_in_out">Premium (10 page fully responsive website in 21 days)</option>
         </select>
     </div>
     <div className="mb-6">
