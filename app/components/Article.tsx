@@ -19,10 +19,6 @@ const Blog = () => {
       <section className=" ">
     <div className=" p-4 mx-auto max-w-screen-xl lg:px-6 ">
 
-     {/* Image */}
-     {/* <div className="pb-8">
-     <Image src={tech} className="w-full rounded-xl" alt='#'/>
-     </div> */}
      
       <div className="grid gap-4 lg:grid-cols-2">
         {/* Article 1 */}
@@ -112,6 +108,7 @@ const Blog = () => {
                   </a>
               </div>
           </article> 
+          
       {/* Article 4 */}
           <article className="p-4 bg-white rounded-lg border border-gray-200 shadow-md ">
             <div className="mb-4">
