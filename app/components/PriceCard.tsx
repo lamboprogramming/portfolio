@@ -4,9 +4,9 @@ const PriceCard = () => {
   return (
     <div className="p-8 ">
         <header className="text-center mx-auto mb-4 lg:px-20">
-            <h2 className="text-2xl leading-normal mb-2 font-bold text-black">What We Do</h2>
+            <h2 className="text-2xl md:text-3xl lg:text4xl leading-normal mb-2 font-bold text-black">What We Do</h2>
            
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Find the bridge between abstract ideas and tangible innovation</p>
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-3xl">Find the bridge between abstract ideas and tangible innovation</p>
         </header>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
             <li className="mb-10 ml-4">
