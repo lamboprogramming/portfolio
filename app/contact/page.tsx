@@ -6,9 +6,14 @@ import Footer from '../components/Footer';
 const page = () => {
   return (
     <>
-    <Navbar />
-    <h2 className="mb-4 text-4xl lg:text-5xl tracking-tight font-extrabold text-center text-gray-900 py-4 ">Contact Us</h2>
-    <div className=' p-8'>
+    <Navbar/>
+    <div className='bg-slate-50'>
+    <header className="text-center mx-auto mb-4 lg:px-20 ">
+            <h2 className="text-2xl leading-normal mb-2 font-bold text-black pt-4">Contact us</h2>
+           
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">It&apos;s time to bring your idea to fruition</p>
+        </header>
+    <div className=' p-8 '>
      
       {/* form */}
       <form encType="multipart/form-data">
@@ -22,8 +27,8 @@ const page = () => {
             <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="j.doe@gmail.com" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
         <div>
-            <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Location</label>
-            <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="City / State" required/>
+            <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">State/Province</label>
+            <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="State you reside in" required/>
         </div>
         <div>
             <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Company/Organization</label>
@@ -34,8 +39,8 @@ const page = () => {
             <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="123-456-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
             <div className="mb-4">
-          <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Service due date</label>
-          <div className="relative ">
+              <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Project due date</label>
+            <div className="relative ">
     
         <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
     <svg className="w-6 h-4 text-gray-500 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -48,18 +53,13 @@ const page = () => {
 
     </div>
 
-
-
-
-
-    
     <div className="mb-6">
         <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Pricing Package</label>
         <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select option</option>
-            <option value="standard">Basic (3 page fully responsive website in 7 days)</option>
-            <option value="deep">Standard (5 page fully responsive website in 14 days)</option>
-            <option value="move_in_out">Premium (10 page fully responsive website in 21 days)</option>
+            <option value="standard">Basic (3 page website in 7 days)</option>
+            <option value="deep">Standard (5 page website in 14 days)</option>
+            <option value="move_in_out">Premium (10 page website in 21 days)</option>
         </select>
     </div>
     <div className="mb-6">
@@ -90,7 +90,7 @@ const page = () => {
         </div>
         <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 sm:text-lg ">I agree with the <a href="#" className="text-gray-700 hover:underline ">terms and conditions</a>.</label>
     </div>
-    <button type="submit" className="text-gray-700 bg-slate-100 hover:bg-slate-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:text-lg  w-full sm:w-auto px-8 py-2.5 text-center ">Submit</button>
+    <button type="submit" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center ">Submit</button>
       </form>
 
 
@@ -98,6 +98,8 @@ const page = () => {
 
 
     </div>
+    </div>
+
     
     <Footer />
     

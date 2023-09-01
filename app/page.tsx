@@ -16,11 +16,12 @@ export default function Home() {
     <Navbar />
     <Jumbotron />
     
-    
+    <div className='bg-slate-50'>
     <PriceCard />
     <Pricing />
     <PicGrid /> 
     <Projects />
+    </div>
     <Footer />
     </>
   )

@@ -7,7 +7,11 @@ const page = () => {
   return (
     <>
     <Navbar />
+    <div className='bg-slate-50'>
+    
+    
     <Article/>
+    </div>
     <Footer />
     </>
   );
