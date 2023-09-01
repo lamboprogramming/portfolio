@@ -1,9 +1,14 @@
+'use client'
+import { useState } from 'react'
 import Link from 'next/link';
-import React from 'react';
-import { FcCancel } from 'react-icons/fc'
+import { LiaAngleDoubleRightSolid } from 'react-icons/lia'
+import { GrAlarm } from 'react-icons/gr'
 
 
 const Pricing = () => {
+    const [showDropdown, setShowDropdown] = useState(false);
+    const [showStandardDropdown, setShowStandardDropdown] = useState(false);
+    const [showPremiumDropdown, setShowPremiumDropdown] = useState(false);
   return (
     <>
     
@@ -64,10 +69,43 @@ const Pricing = () => {
            </li>
          
        </ul>
+
+       {/* Read more */}
+      <div className="flex justify-center mt-4 mb-4">
+        <button
+          onClick={() => setShowDropdown(!showDropdown)}
+          className="text-gray-900 font-medium focus:outline-none flex items-center space-x-1 cursor-pointer"
+        >
+          <span>View Related Projects</span>
+          <LiaAngleDoubleRightSolid/>
+        </button>
+        {showDropdown && (
+          <ul role="list" className="mt-2 space-y-2">
+        
+            <li className="mb-8 ml-4">
+            <h3 className="text-base font-semibold text-gray-900 mb-4 animate-bounce  ">
+                7 day delivery 
+            </h3>
+                
+   
+            
+            <ul className="mb-4 text-base font-normal text-gray-900 leading-7 ">
+              <li className='mt-2'> <span className='font-semibold text-blue-500'>Personal Blogging Platform:</span> A simple website for individuals to create and share their personal blogs and stories.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Event Landing Page:</span> A single-page website designed to promote and provide information about an upcoming event.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Online Portfolio:</span> A website to showcase an individual&apos;s work or achievements, often used by freelancers and job seekers.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Local Business Directory:</span> A directory listing local businesses, providing information like contact details, reviews, and location.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Resume/CV Builder:</span> An online tool that helps users create professional resumes and CVs.</li>
+              <li className="mt-4"> <span className='font-semibold text-blue-500 '>Educational Resource Hub:</span> A platform for organizing and sharing educational resources such as articles, videos, and courses.</li>
+            </ul>
+            </li>
+          </ul>
+        )}
+      </div>
+
        <Link href="/contact">
        <button type="button" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Basic</button>
        </Link>   
-       {/* this */}
+      
 
           
    </div>
@@ -118,33 +156,38 @@ const Pricing = () => {
                </svg>
                <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
            </li>
-                      {/* Animation */}
-                      {/* <li className="flex space-x-4 items-center">
-                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Modern business website</span> </span>
-
-               <li className="flex space-x-3 items-center">
-                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Portfolio website</span> </span>
-           </li>
-           <li className="flex space-x-3 items-center">
-                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Event photography website</span> </span>
-               </li>
-               <li className="flex space-x-3 items-center">
-                <h1 className='text-xl text-orange-500 animate-spin'><LiaArtstation/></h1>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Recipe sharing platform</span> </span>
-
-           </li> 
-           </li>*/}
-      
-
-       
-
-
-
-   
        </ul>
+
+       {/* Read more */}
+       <div className="flex justify-center mt-4 mb-4">
+        <button
+          onClick={() => setShowStandardDropdown(!showStandardDropdown)}
+          className="text-gray-900 font-medium focus:outline-none flex items-center space-x-1 cursor-pointer"
+        >
+          <span>View Related Projects</span>
+          <LiaAngleDoubleRightSolid/>
+        </button>
+        {showStandardDropdown && (
+          <ul role="list" className="mt-2 space-y-2">
+        
+            <li className="mb-8 ml-4">
+            
+            <h3 className="text-base font-semibold text-gray-900 mb-4 animate-bounce  ">
+                14 day delivery 
+            </h3>
+            <ul className="mb-4 text-base font-normal text-gray-900 leading-7 ">
+            <li className='mt-2'> <span className='font-semibold text-blue-500'>Small Business Website:</span> A website designed to represent and promote small businesses online, including information about services and products.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Online Product Showcase:</span> An e-commerce website to display and sell products or services with an interactive catalog.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Fitness and Wellness Blog:</span> A blog dedicated to fitness, wellness, and healthy lifestyle topics.</li>
+              <li className='mt-4'><span className='font-semibold text-blue-500'>Real Estate Listings:</span> A website for listing and searching properties available for rent or sale.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Community Forum:</span> An online discussion platform for people with common interests or concerns to engage in conversations.</li>
+              <li className='mt-4'> <span className='font-semibold text-blue-500'>Event Ticketing Platform:</span> A platform for creating and selling tickets for events like concerts, conferences, or sports games.</li>
+            </ul>
+            </li>
+          </ul>
+        )}
+      </div>
+
        <Link href="/contact">
        <button type="button" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Standard</button>
        </Link>
@@ -199,16 +242,38 @@ const Pricing = () => {
                </svg>
                <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Payment Methods:</span> payment methods for customers to securely complete purchases.</span>
            </li>
-
-      
-    
-
-           
-    
- 
-
-   
        </ul>
+
+              {/* Read more */}
+              <div className="flex justify-center mt-4 mb-4">
+        <button
+          onClick={() => setShowPremiumDropdown(!showPremiumDropdown)}
+          className="text-gray-900 font-medium focus:outline-none flex items-center space-x-1 cursor-pointer"
+        >
+          <span>View Related Projects</span>
+          <LiaAngleDoubleRightSolid/>
+        </button>
+        {showPremiumDropdown && (
+          <ul role="list" className="mt-2 space-y-2">
+        
+            <li className="mb-8 ml-4">
+            
+            <h3 className="text-base font-semibold text-gray-900 mb-4 animate-bounce  ">
+                21 day delivery 
+            </h3>
+            <ul className="mb-4 text-base font-normal text-gray-900 leading-7 ">
+            <li className='mt-2'> <span className='font-semibold text-blue-500'>Online Learning Management System (LMS):</span> A comprehensive platform for creating, delivering, and managing online courses and educational content.</li>
+            <li className='mt-4'> <span className='font-semibold text-blue-500'>E-commerce Marketplace:</span> A sophisticated online marketplace where multiple vendors can list and sell their products, often with advanced features like ratings, reviews, and payment processing.</li>
+            <li className='mt-4'> <span className='font-semibold text-blue-500'>Travel Booking Portal:</span> An online platform for booking flights, hotels, tours, and other travel-related services.</li>
+            <li className='mt-4'> <span className='font-semibold text-blue-500'>Real Estate Listings:</span> A website for listing and searching properties available for rent or sale.</li>
+            <li className='mt-4'> <span className='font-semibold text-blue-500'>Financial Portfolio Tracker:</span> A tool for tracking and managing investment portfolios, including stocks, bonds, and other assets.</li>
+            <li className='mt-4'> <span className='font-semibold text-blue-500'>Custom Tailoring Platform:</span> An e-commerce platform for custom-made clothing, where customers can design and order personalized garments.</li>
+            </ul>
+            </li>
+          </ul>
+        )}
+      </div>
+
        <Link href="/contact">
        <button type="button" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Premium</button>
        </Link>
