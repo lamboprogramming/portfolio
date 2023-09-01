@@ -11,7 +11,7 @@ import money from '../../public/money.jpg'
 const Blog = () => {
   return (
     <div className='bg-slate-50'>
-          <header className="text-center mx-auto mb-4 lg:px-20 pt-4">
+          <header className="text-center mx-auto  lg:px-20 p-4">
             <h2 className="text-2xl md:text-3xl lg:text-4xl leading-normal mb-2 font-bold text-black">Welcome to my thoughts</h2>
            
             <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl">Find topics ranging from health to finance</p>
