@@ -34,21 +34,21 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">3 Page</span> responsive web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">3 Page</span> responsive web application or website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Social Media Integration:</span> media buttons, sharing content, and embedding content. </span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">Social Media Integration:</span> media buttons, sharing content, and embedding content. </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appealling, CTA elements, visual story telling.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appealling, CTA elements, visual story telling.
                </span>
            
            </li>
@@ -56,7 +56,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Speed Optimization:</span> page loading speed, user experience, mobile performance.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Speed Optimization:</span> page loading speed, user experience, mobile performance.
                </span>
            
            </li>
@@ -64,7 +64,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
       
            </li>
          
@@ -124,21 +124,21 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>5 Page</span> responsive modern business web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>5 Page</span> responsive modern business web application or website for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Social Media Integration:</span>  media buttons, sharing content, and embedding content. </span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Social Media Integration:</span>  media buttons, sharing content, and embedding content. </span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appealling, CTA elements, visual story telling.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Content Integration:</span> brand consistency, visually appealling, CTA elements, visual story telling.
                </span>
            
            </li>
@@ -146,7 +146,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Speed Optimization:</span> page loading speed, user experience, mobile performance.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Speed Optimization:</span> page loading speed, user experience, mobile performance.
                </span>
            
            </li>
@@ -154,7 +154,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">Search Engine Optimization:</span> setup with meta tags and keyword integration.</span>
            </li>
        </ul>
 
@@ -207,7 +207,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>10 Page</span> responsive full stack web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>10 Page</span> responsive full stack web application or website for desktop and mobile devices.</span>
            
            </li>
          
@@ -215,14 +215,14 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>E-commerce solutions:</span> customers can explore, select, and purchase products.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>E-commerce solutions:</span> customers can explore, select, and purchase products.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Database Setup:</span> storage, retrieval and management of data and information.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Database Setup:</span> storage, retrieval and management of data and information.
                </span>
            
            </li>
@@ -230,7 +230,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Data Validation:</span> Ensure that data submitted by users is accurate and secure.
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Data Validation:</span> Ensure that data submitted by users is accurate and secure.
                </span>
            
            </li>
@@ -240,12 +240,12 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-500 "><span className='font-bold'>Payment Methods:</span> payment methods for customers to securely complete purchases.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>Payment Methods:</span> payment methods for customers to securely complete purchases.</span>
            </li>
        </ul>
 
               {/* Read more */}
-              <div className="flex justify-center mt-4 mb-4">
+        <div className="flex justify-center mt-4 mb-4">
         <button
           onClick={() => setShowPremiumDropdown(!showPremiumDropdown)}
           className="text-gray-900 font-medium focus:outline-none flex items-center space-x-1 cursor-pointer"
@@ -272,7 +272,7 @@ const Pricing = () => {
             </li>
           </ul>
         )}
-      </div>
+        </div>
 
        <Link href="/contact">
        <button type="button" className="text-white bg-blue-500 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-200  font-semibold rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose Premium</button>
