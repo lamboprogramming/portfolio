@@ -11,15 +11,15 @@ const PicGrid = () => {
   return (
     <div>
       
-<div className="grid grid-cols-2 gap-2 p-4 mb-4 xl:hidden">
+<div className="grid grid-cols-2 gap-2 p-4 mb-4 xl:hidden ">
         <div className=''>
             <Image className="h-auto max-w-full rounded-lg" src={tech1} alt=""/>
         </div>
         <div className=''>
-            <Image className="h-auto max-w-full rounded-lg" src={tech2} alt=""/>
+            <Image className="h-auto max-w-full rounded-lg " src={tech2} alt=""/>
         </div>
         <div className='' >
-            <Image className="h-auto max-w-full rounded-lg" src={tech3} alt=""/>
+            <Image className="h-auto max-w-full rounded-lg " src={tech3} alt=""/>
         </div>
         <div className=''>
             <Image className="h-auto max-w-full rounded-lg" src={tech4} alt=""/>

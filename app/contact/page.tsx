@@ -11,7 +11,7 @@ const page = () => {
     <header className="text-center mx-auto mb-4 lg:px-20 ">
             <h2 className="text-2xl md:text-3xl lg:text-4xl leading-normal mb-2 font-bold text-black pt-4">Contact us</h2>
            
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl">It&apos;s time to bring your idea to fruition</p>
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl">Let&apos;s chat and so we can bring your ideas to life</p>
         </header>
     <div className=' p-8 '>
      
@@ -39,7 +39,7 @@ const page = () => {
             <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="123-456-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
             <div className="mb-4">
-              <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Project due date</label>
+              <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">When do you need this product delivered?</label>
             <div className="relative ">
     
         <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
@@ -57,15 +57,15 @@ const page = () => {
         <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Pricing Package</label>
         <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select option</option>
-            <option value="standard">Basic (3 page website in 7 days)</option>
-            <option value="deep">Standard (5 page website in 14 days)</option>
-            <option value="move_in_out">Premium (10 page website in 21 days)</option>
+            <option value="standard">Basic package </option>
+            <option value="deep">Standard package</option>
+            <option value="move_in_out">Premium package</option>
         </select>
     </div>
-    <div className="mb-6">
+    {/* <div className="mb-6">
     <label htmlFor="attachments" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Attach File</label>
     <input type="file" id="attachments" name="attachments" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" />
-</div>
+</div> */}
    
     <div className="mb-6">
         <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">How did you hear about us?</label>
