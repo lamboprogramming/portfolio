@@ -9,7 +9,7 @@ const page = () => {
     <div className=''>
       <Navbar />
         <div className="flex  justify-center ">
-          <Image src={fruit} className="max-w-2xl " alt='#'/>
+          <Image src={fruit} priority className="max-w-2xl " alt='#'/>
         </div>
         <div className='flex justify-center font-semibold lg:text-4xl text-3xl  p-6 items-center'>
           <div>
