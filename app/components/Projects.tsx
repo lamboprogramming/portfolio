@@ -69,7 +69,7 @@ const Projects = () => {
         </div>
                 {/*  Buttons */}
             <div className='flex mb-4 mt-8 space-x-4 justify-center lg:justify-start '>
-              <a href="https://cleaning-service-git-master-lamboprogramming.vercel.app/" className='cursor-pointer'>
+              <a href="https://champion-cleaning-git-master-lamboprogramming.vercel.app/" className='cursor-pointer'>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded ">Visit Site</button>
               </a> 
 
