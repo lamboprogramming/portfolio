@@ -38,7 +38,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">3 Page</span> responsive web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className="font-bold">3 Page</span> responsive web application or desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
@@ -128,7 +128,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>5 Page</span> responsive modern business web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>5 Page</span> responsive modern business web application for desktop and mobile devices.</span>
            
            </li>
            <li className="flex space-x-3 items-center">
@@ -211,7 +211,7 @@ const Pricing = () => {
                <svg className="flex-shrink-0 w-4 h-4 text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                </svg>
-               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>10 Page</span> responsive full stack web application or website for desktop and mobile devices.</span>
+               <span className="text-base font-normal leading-tight text-gray-900 "><span className='font-bold'>10 Page</span> responsive full stack web application for desktop and mobile devices.</span>
            
            </li>
          
