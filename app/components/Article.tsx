@@ -1,20 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../public/next.svg'
-import tech from '../../public/tech8.jpg'
+
 import fruit from '../../public/fruit.jpg'
 import roadmap from '../../public/roadmap.jpg'
-import mindset from '../../public/mindset.jpg'
+
 import money from '../../public/money.jpg'
 
 const Blog = () => {
   return (
     <div className='bg-slate-50 '>
-          <header className="text-center mx-auto  lg:px-20 p-4">
+          <header className="text-center mx-auto  lg:px-20 pt-4 px-4">
             <h2 className="text-2xl md:text-3xl lg:text-4xl leading-normal mb-2 font-bold text-black">Welcome to my thoughts</h2>
            
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl">&quot;The ability to read awoke inside of me some long dormant craving to be mentally alive.&quot; </p>
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto md:text-2xl">&quot;The ability to read awoke inside of me some long dormant craving to be mentally alive.&quot; </p>
         </header>
       <section className=" ">
     <div className=" p-4 mx-auto max-w-screen-xl lg:px-6 ">
@@ -84,7 +83,7 @@ const Blog = () => {
                   <span className="text-sm">9 days ago</span>
               </div>
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Finance tips I wish they taught in school<a href="#"></a></h2>
-              <p className="mb-5 font-light text-gray-500 "> Let&apos;s face it, not all of us got the ultimate crash course in finances from our folks. But worry not! In this blog, we&apos;re spilling the beans on 5 super useful finance tips that your parents might&apos;ve missed in their teachings. </p>
+              <p className="mb-5 font-light text-gray-500 "> Let&apos;s face it, not all of us got the ultimate crash course in finances from our folks. But not to worry! In this blog, we&apos;re spilling the beans on 10 super useful finance tips to start taking control of your finances and future. </p>
               <div className="flex justify-between items-center">
              
                   <a href="/blog/blog4" className="inline-flex items-center font-medium text-primary-600  hover:underline">

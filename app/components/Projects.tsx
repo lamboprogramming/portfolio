@@ -14,8 +14,8 @@ const Projects = () => {
 <div className=" my-2 mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
   <section className="mb-4 text-center lg:text-left">
-      <header className="text-center mx-auto mb-4 lg:px-20">
-            <h2 className="text-2xl leading-normal mb-2 font-bold text-black md:text-3xl lg:text-4xl">Our featured projects</h2>
+      <header className="text-center mx-auto lg:px-20">
+            <h2 className="text-2xl leading-normal font-bold text-black md:text-3xl lg:text-4xl">Our featured projects</h2>
            
             <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl p-4">&quot;You can do anything you set your mind to&quot; </p>
       </header>
