@@ -27,11 +27,11 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
-      <header className="text-center mx-auto mb-4 lg:px-20 ">
+      <header className="text-center mx-auto  lg:px-20 ">
             <h2 className="text-2xl md:text-3xl lg:text-4xl leading-normal mb-2 font-bold text-black pt-4">Contact us
             </h2>
            
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl px-4">Let&apos;s work together and bring your idea to life
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto  md:text-2xl px-4">Let&apos;s work together and bring your idea to life
             </p>
         </header>
 

@@ -11,7 +11,7 @@ const PicGrid = () => {
   return (
     <div>
       
-<div className="grid grid-cols-2 gap-2 p-4 mb-4 xl:hidden ">
+<div className="grid grid-cols-2 gap-2 p-4 xl:hidden ">
         <div className=''>
             <Image className="h-auto max-w-full rounded-lg" src={tech1} alt=""/>
         </div>
