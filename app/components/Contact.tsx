@@ -1,22 +1,27 @@
 'use client'
-import React, { useRef }  from 'react';
+import React, { useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-    const form = useRef();
+    const form = useRef(null);
+
+    
 
     const sendEmail = (e: any) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_ol21stm', 'template_ogbwug8', form.current, '3R0bhVy61UmW0fUQL')
+      if (form.current) {
+        emailjs.sendForm('service_ol21stm', 'template_ogbwug8',  form.current, '3R0bhVy61UmW0fUQL')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
+          e.target.reset()
+
+      }
       };
 
   return (
@@ -33,7 +38,7 @@ const Contact = () => {
       {/* form */}
       <div className='p-8' >
 
-      <form ref={form} onSubmit={sendEmail}  htmlForm={form} >
+      <form ref={form} onSubmit={sendEmail}>
     <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
             <label   className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Name</label>
@@ -46,11 +51,11 @@ const Contact = () => {
 
         <div>
             <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Company/Organization</label>
-            <input type="text" id="company" name="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="Company (optional)" required/>
+            <input type="text" id="company" name="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="Company (optional)" />
         </div>  
         <div>
             <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Phone number</label>
-            <input type="tel"name="message" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="123-456-6789" required/>
+            <input type="tel"name="message" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="123-456-6789"/>
         </div>
     
 
@@ -66,17 +71,6 @@ const Contact = () => {
         </select>
     </div>
 
-   
-    <div className="mb-6" >
-        <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">How did you hear about us?</label>
-        <select  id="bedrooms" name="message"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
-            <option value="" disabled>Select option</option>
-            <option value="referrak">Referral</option>
-            <option value="social media">Social media</option>
-            <option value="other">Other</option>
-           
-        </select>
-    </div>
    
     <div className="mb-6">
     <label htmlFor="comments" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Additional Comments or Requests</label>
