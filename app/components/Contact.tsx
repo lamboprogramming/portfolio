@@ -62,7 +62,7 @@ const Contact = () => {
     </div>
     
     <div className="mb-6">
-        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Pricing Package</label>
+        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Pricing package</label>
         <select   id="cleaning_service" name="message" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select option</option>
             <option value="basic package">Basic package </option>
