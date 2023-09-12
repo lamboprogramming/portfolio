@@ -11,13 +11,13 @@ const Projects = () => {
   return (
     <div className='p-2'>
       
-<div className=" my-2 mx-auto md:px-6">
+<div className=" my-2 mx-auto md:px-6 px-2">
   {/* <!-- Section: Design Block --> */}
   <section className="mb-4 text-center lg:text-left">
       <header className="text-center mx-auto lg:px-20">
-            <h2 className="text-2xl leading-normal font-bold text-black md:text-3xl lg:text-4xl">Our featured projects</h2>
+            <h2 className="text-2xl leading-normal font-bold text-black md:text-3xl lg:text-4xl md:mb-4">Our featured projects</h2>
            
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl p-4">&quot;You can do anything you set your mind to&quot; </p>
+            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto mb-8 md:text-2xl px-4 ">&quot;You can do anything you set your mind to&quot; </p>
       </header>
 
     <div className="grid gap-x-6 lg:grid-cols-3">

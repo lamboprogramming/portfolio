@@ -11,8 +11,8 @@ const Pricing = () => {
     const [showPremiumDropdown, setShowPremiumDropdown] = useState(false);
   return (
     <>
-      <header className="text-center mx-auto mb-4 pt-4 lg:px-20 bg-slate-50 px-8">
-            <h2 className="text-2xl leading-normal mb-2 font-bold text-black md:text-3xl lg:text-4xl">Choose the best plan for your needs</h2>
+      <header className="text-center mx-auto mb-4 pt-4 lg:px-20 bg-slate-50 px-8 md:pt-8">
+            <h2 className="text-2xl leading-normal mb-2 font-bold text-black md:text-3xl lg:text-4xl md:mb-4">Choose the best plan for your needs</h2>
            
             <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 md:text-2xl">Everything you need to capture leads and turn them into customers</p>
       </header>
